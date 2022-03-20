@@ -1,8 +1,18 @@
 total = 0
-x = ["Coke", float(2.50)], ["Water", float(4.60)], ["Juice", float(3.42)], ["Tea", float(2.80)]
-y = ["Goveja juha", float(3.5)], ["Dunajski zrezek", float(5.50)], ["Krompir", float(4.20)]
-z = ["Štrudelj", float(2.50)], ["Torta", float(4.20)], ["Tiramisu", float(3.80)]
-xyz = []
+#x = ["Coke", float(2.50)], ["Water", float(4.60)], ["Juice", float(3.42)], ["Tea", float(2.80)]
+#y = ["Goveja juha", float(3.5)], ["Dunajski zrezek", float(5.50)], ["Krompir", float(4.20)]
+#z = ["Štrudelj", float(2.50)], ["Torta", float(4.20)], ["Tiramisu", float(3.80)]
+#xyz = []
+x = ["Coke", "Water", "Juice", "Tea"]
+y = ["Goveja juha", "Dunajski zrezek", "Krompir"]
+z = ["Štrudelj", "Torta", "Tiramisu"]
+cena1 = [2, 4, 3, 2]
+cena2 = [3, 5, 4]
+cena3 = [2, 4, 3]
+
+for x, cena1 in zip(x, cena1): 
+    print(f"Pijaca {x}")
+
 
 #ime = input("Dobrodošli, vpišite ime na katero imate rezervacijo.")
 #print(f"Gospod/gospa {ime}prosim prisedite za sledečo mizo.")
